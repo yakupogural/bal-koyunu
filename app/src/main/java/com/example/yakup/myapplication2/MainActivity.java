@@ -62,6 +62,7 @@ public class MainActivity extends AppCompatActivity {
     private void Hide() {
 
 
+
         handler = new Handler();
         runnable = new Runnable() {
             @Override
