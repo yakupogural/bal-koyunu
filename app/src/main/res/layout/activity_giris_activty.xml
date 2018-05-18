@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GirisActivty"
+    android:background="@drawable/akvarium2">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kullanıcı Adı Giriniz"
+        android:textColor="#ff2"
+        android:textSize="20dp"
+        android:id="@+id/kullaniciAdi"
+        android:layout_centerInParent="true"
+        android:textStyle="italic"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="123213121"
+        android:inputType="textPassword"
+        android:layout_below="@+id/kullaniciAdi"
+        android:textColor="#ff2"
+        android:textSize="20dp"
+        android:id="@+id/kullaniciSifre"
+        android:layout_centerInParent="true"
+        android:textStyle="italic"/>
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Giriş"
+    android:id="@+id/btnGiris"
+    android:layout_below="@+id/kullaniciSifre"
+    android:layout_centerHorizontal="true"/>
+
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:src="@drawable/fish"
+        android:layout_above="@+id/kullaniciAdi"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
